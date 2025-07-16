@@ -1,3 +1,4 @@
+<!-- Trigger Pages rebuild -->
 # UzFuture AI Platform
 UzFuture AI platforma frontend UI
 
