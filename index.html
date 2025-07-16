@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe - Premium AI Platform | 25+ Professional AI Services</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Meta tags -->
+    <meta name="description" content="AI Universe - O'zbekistondagi eng professional AI platformasi. 25+ AI xizmati: Chat, Tarjimon, Islom AI, Kod yordamchisi va boshqalar.">
+    <meta name="keywords" content="AI, sun'iy intellekt, chatbot, tarjimon, islom AI, dasturlash, O'zbekiston, professional">
+    <meta name="author" content="AI Universe Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiuniverse.uz/">
+    <meta property="og:title" content="AI Universe - Premium AI Platform">
+    <meta property="og:description" content="25+ professional AI xizmati bir platformada">
+    <meta property="og:image" content="/assets/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aiuniverse.uz/">
+    <meta property="twitter:title" content="AI Universe - Premium AI Platform">
+    <meta property="twitter:description" content="25+ professional AI xizmati bir platformada">
+    <meta property="twitter:image" content="/assets/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#6366f1">
+    <meta name="msapplication-TileColor" content="#6366f1">
+</head>
+<body class="loading">
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="logo-text">AI Universe</div>
+            </div>
+            <div class="loading-animation">
+                <div class="loading-bar">
+                    <div class="loading-progress" id="loadingProgress"></div>
+                </div>
+                <div class="loading-text">Professional AI Platform yuklanmoqda...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-robot"></i>
+                    <div class="logo-glow"></div>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">AI Universe</span>
+                    <span class="brand-tagline">Premium AI Platform</span>
+                </div>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Bosh sahifa</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Xizmatlar</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">
+                            <i class="fas fa-star"></i>
+                            <span>Xususiyatlar</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Haqida</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Aloqa</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- Header Controls -->
+            <div class="header-controls">
+                <button class="lang-switcher" id="langSwitcher">
+                    <i class="fas fa-globe"></i>
+                    <span class="lang-current">UZ</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-content">
+                <div class="mobile-nav-header">
+                    <div class="mobile-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Universe</span>
+                    </div>
+                    <button class="mobile-nav-close" id="mobileNavClose">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <ul class="mobile-nav-list">
+                    <li><a href="#home" class="mobile-nav-link"><i class="fas fa-home"></i>Bosh sahifa</a></li>
+                    <li><a href="#services" class="mobile-nav-link"><i class="fas fa-brain"></i>AI Xizmatlar</a></li>
+                    <li><a href="#features" class="mobile-nav-link"><i class="fas fa-star"></i>Xususiyatlar</a></li>
+                    <li><a href="#about" class="mobile-nav-link"><i class="fas fa-info-circle"></i>Haqida</a></li>
+                    <li><a href="#contact" class="mobile-nav-link"><i class="fas fa-envelope"></i>Aloqa</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Language Dropdown -->
+        <div class="lang-dropdown" id="langDropdown">
+            <div class="lang-option" data-lang="uz">
+                <img src="https://flagcdn.com/w20/uz.png" alt="O'zbek">
+                <span>O'zbek</span>
+            </div>
+            <div class="lang-option" data-lang="ru">
+                <img src="https://flagcdn.com/w20/ru.png" alt="Русский">
+                <span>Русский</span>
+            </div>
+            <div class="lang-option" data-lang="en">
+                <img src="https://flagcdn.com/w20/us.png" alt="English">
+                <span>English</span>
+            </div>
+            <div class="lang-option" data-lang="ar">
+                <img src="https://flagcdn.com/w20/sa.png" alt="العربية">
+                <span>العربية</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+            <div class="hero-grid">
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>O'zbekistondagi #1 AI Platform</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Kelajak Texnologiyalari</span>
+                    <span class="title-highlight">AI Universe</span>
+                    <span class="title-line">Bilan Hozir!</span>
+                </h1>
+                
+                <p class="hero-description">
+                    25 ta professional AI xizmati bir platformada. Chat, tarjimon, 
+                    islom AI, dasturlash yordamchisi va ko'plab innovatsion yechimlar.
+                    Sun'iy intellekt bilan hayotingizni osonlashtiring!
+                </p>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large" onclick="scrollToSection('services')">
+                        <i class="fas fa-rocket"></i>
+                        <span>AI'larni Sinab Ko'ring</span>
+                        <div class="btn-shine"></div>
+                    </button>
+                    <button class="btn btn-secondary btn-large" onclick="scrollToSection('features')">
+                        <i class="fas fa-play"></i>
+                        <span>Video Ko'rish</span>
+                    </button>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="25">0</div>
+                        <div class="stat-label">AI Xizmati</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Til Tarjimasi</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="24">0</div>
+                        <div class="stat-label">Soat Xizmat</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label">Aniqlik %</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="ai-showcase">
+                    <div class="showcase-ring showcase-ring-1">
+                        <div class="showcase-item" style="--delay: 0s">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="showcase-item" style="--delay: 0.5s">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="showcase-item" style="--delay: 1s">
+                            <i class="fas fa-mosque"></i>
+                        </div>
+                        <div class="showcase-item" style="--delay: 1.5s">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="showcase-ring showcase-ring-2">
+                        <div class="showcase-item" style="--delay: 0.25s">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="showcase-item" style="--delay: 0.75s">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div class="showcase-item" style="--delay: 1.25s">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="showcase-item" style="--delay: 1.75s">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="showcase-center">
+                        <div class="center-logo">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="center-pulse"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll-indicator">
+            <div class="scroll-text">Pastga aylantiring</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-brain"></i>
+                    <span>Professional AI Xizmatlar</span>
+                </div>
+                <h2 class="section-title">25 ta Zamonaviy AI Yordamchi</h2>
+                <p class="section-description">
+                    Har bir AI o'z sohasida mutaxassis. Professional sifat va innovatsion yondashuvlar 
+                    bilan sizning barcha ehtiyojlaringizni qondiradi.
+                </p>
+            </div>
+            
+            <div class="ai-grid">
+                <!-- Chat AI -->
+                <div class="ai-card premium" data-ai="chat">
+                    <div class="ai-card-header">
+                        <div class="ai-icon chat-ai">
+                            <i class="fas fa-comments"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Populyar</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Chat AI</h3>
+                        <p class="ai-description">Umumiy savollar va har kunlik yordamchi. Har qanday mavzuda suhbatlashing.</p>
+                        <div class="ai-features">
+                            <span class="feature">Chat</span>
+                            <span class="feature">Yordam</span>
+                            <span class="feature">Maslahat</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Sinab Ko'ring</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Translator AI -->
+                <div class="ai-card featured" data-ai="translator">
+                    <div class="ai-card-header">
+                        <div class="ai-icon translator-ai">
+                            <i class="fas fa-language"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Premium</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Tarjimon AI</h3>
+                        <p class="ai-description">100+ tilga professional tarjima. Ovozli va matnli tarjima imkoniyati.</p>
+                        <div class="ai-features">
+                            <span class="feature">100+ Til</span>
+                            <span class="feature">Ovozli</span>
+                            <span class="feature">Real-time</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Tarjima Qiling</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Islamic AI -->
+                <div class="ai-card blessed" data-ai="islamic">
+                    <div class="ai-card-header">
+                        <div class="ai-icon islamic-ai">
+                            <i class="fas fa-mosque"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Halol</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Islom AI</h3>
+                        <p class="ai-description">Diniy savollar va islomiy bilimlar. Qur'on va Sunnat asosida javoblar.</p>
+                        <div class="ai-features">
+                            <span class="feature">Qur'on</span>
+                            <span class="feature">Hadis</span>
+                            <span class="feature">Fiqh</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Savol Bering</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Islamic Scholar AI -->
+                <div class="ai-card blessed" data-ai="islamic_scholar">
+                    <div class="ai-card-header">
+                        <div class="ai-icon scholar-ai">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Olim</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Islom Olimi AI</h3>
+                        <p class="ai-description">Chuqur diniy bilimlar va ilmiy tushuntirishlar. Fiqh masalalari bo'yicha maslahat.</p>
+                        <div class="ai-features">
+                            <span class="feature">Chuqur bilim</span>
+                            <span class="feature">Fiqh</span>
+                            <span class="feature">Ilmiy</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Maslahat Oling</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Quran AI -->
+                <div class="ai-card blessed" data-ai="quran">
+                    <div class="ai-card-header">
+                        <div class="ai-icon quran-ai">
+                            <i class="fas fa-book-open"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Qur'on</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Qur'on AI</h3>
+                        <p class="ai-description">Qur'on o'qituvchi va tafsir. Oyatlar ma'nosi va to'g'ri tilovat.</p>
+                        <div class="ai-features">
+                            <span class="feature">Tafsir</span>
+                            <span class="feature">Tilovat</span>
+                            <span class="feature">Ma'no</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>O'rganing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hadith AI -->
+                <div class="ai-card blessed" data-ai="hadith">
+                    <div class="ai-card-header">
+                        <div class="ai-icon hadith-ai">
+                            <i class="fas fa-scroll"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Hadis</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Hadis AI</h3>
+                        <p class="ai-description">Payg'ambar (s.a.v.) hadislari va sharhlari. Sahih hadislar to'plami.</p>
+                        <div class="ai-features">
+                            <span class="feature">Sahih</span>
+                            <span class="feature">Sharh</span>
+                            <span class="feature">Matn</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Hadis O'qing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Prayer AI -->
+                <div class="ai-card blessed" data-ai="prayer">
+                    <div class="ai-card-header">
+                        <div class="ai-icon prayer-ai">
+                            <i class="fas fa-pray"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Namaz</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Namaz AI</h3>
+                        <p class="ai-description">Namaz vaqtlari va o'rgatuvchi. Namaz qoidalari va duolarni o'rganing.</p>
+                        <div class="ai-features">
+                            <span class="feature">Vaqtlar</span>
+                            <span class="feature">Qoidalar</span>
+                            <span class="feature">Duolar</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Namaz O'rganing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Universe AI -->
+                <div class="ai-card cosmic" data-ai="universe">
+                    <div class="ai-card-header">
+                        <div class="ai-icon universe-ai">
+                            <i class="fas fa-globe"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Koinot</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Koinot AI</h3>
+                        <p class="ai-description">Koinot va yaratilish sirlari. Astronomiya va falsafa bo'yicha bilimlar.</p>
+                        <div class="ai-features">
+                            <span class="feature">Astronomiya</span>
+                            <span class="feature">Falsafa</span>
+                            <span class="feature">Ilm</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Koinotni O'rganing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Voice AI -->
+                <div class="ai-card interactive" data-ai="voice">
+                    <div class="ai-card-header">
+                        <div class="ai-icon voice-ai">
+                            <i class="fas fa-microphone"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Ovozli</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Ovozli AI</h3>
+                        <p class="ai-description">Ovoz bilan muloqot va nutq sintezi. Real vaqtda suhbatlashing.</p>
+                        <div class="ai-features">
+                            <span class="feature">Ovoz tanish</span>
+                            <span class="feature">Gapirish</span>
+                            <span class="feature">Real-time</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Gaplashing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Code AI -->
+                <div class="ai-card technical" data-ai="code">
+                    <div class="ai-card-header">
+                        <div class="ai-icon code-ai">
+                            <i class="fas fa-code"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Dasturchi</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Kod AI</h3>
+                        <p class="ai-description">Dasturlash yordamchisi va kod yozuvchi. Har qanday tilda dasturlang.</p>
+                        <div class="ai-features">
+                            <span class="feature">Kod yozish</span>
+                            <span class="feature">Debug</span>
+                            <span class="feature">O'rgatish</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Kod Yozing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Medical AI -->
+                <div class="ai-card medical" data-ai="medical">
+                    <div class="ai-card-header">
+                        <div class="ai-icon medical-ai">
+                            <i class="fas fa-heartbeat"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Tibbiy</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Tibbiy AI</h3>
+                        <p class="ai-description">Sog'liq maslahatchi va tibbiy ma'lumotlar. Profilaktika va yordam.</p>
+                        <div class="ai-features">
+                            <span class="feature">Maslahat</span>
+                            <span class="feature">Sog'liq</span>
+                            <span class="feature">Profilaktika</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Maslahat Oling</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Education AI -->
+                <div class="ai-card educational" data-ai="education">
+                    <div class="ai-card-header">
+                        <div class="ai-icon education-ai">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Ta'lim</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Ta'lim AI</h3>
+                        <p class="ai-description">O'qituvchi va ta'lim mentori. Har qanday fanni professional o'rganing.</p>
+                        <div class="ai-features">
+                            <span class="feature">O'qitish</span>
+                            <span class="feature">Mentor</span>
+                            <span class="feature">Test</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>O'rganing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Business AI -->
+                <div class="ai-card business" data-ai="business">
+                    <div class="ai-card-header">
+                        <div class="ai-icon business-ai">
+                            <i class="fas fa-briefcase"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Biznes</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Biznes AI</h3>
+                        <p class="ai-description">Biznes strategiya va rivojlanish maslahatchi. Marketing va moliya bo'yicha yordam.</p>
+                        <div class="ai-features">
+                            <span class="feature">Strategiya</span>
+                            <span class="feature">Marketing</span>
+                            <span class="feature">Moliya</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Biznes Boshlang</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Legal AI -->
+                <div class="ai-card legal" data-ai="legal">
+                    <div class="ai-card-header">
+                        <div class="ai-icon legal-ai">
+                            <i class="fas fa-balance-scale"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Huquq</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Huquq AI</h3>
+                        <p class="ai-description">Huquqiy maslahatchi va qonunchilik. Yuridik masalalar bo'yicha yordam.</p>
+                        <div class="ai-features">
+                            <span class="feature">Qonun</span>
+                            <span class="feature">Maslahat</span>
+                            <span class="feature">Yordam</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Maslahat Oling</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Psychology AI -->
+                <div class="ai-card wellness" data-ai="psychology">
+                    <div class="ai-card-header">
+                        <div class="ai-icon psychology-ai">
+                            <i class="fas fa-brain"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Psixolog</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Psixologiya AI</h3>
+                        <p class="ai-description">Ruhiy salomatlik yordamchisi va psixologik maslahatchi.</p>
+                        <div class="ai-features">
+                            <span class="feature">Ruhiyat</span>
+                            <span class="feature">Maslahat</span>
+                            <span class="feature">Yordam</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Yordam Oling</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Finance AI -->
+                <div class="ai-card financial" data-ai="finance">
+                    <div class="ai-card-header">
+                        <div class="ai-icon finance-ai">
+                            <i class="fas fa-chart-line"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Moliya</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Moliya AI</h3>
+                        <p class="ai-description">Moliyaviy maslahatchi va investitsiya yordamchisi. Pul boshqaruvi.</p>
+                        <div class="ai-features">
+                            <span class="feature">Investitsiya</span>
+                            <span class="feature">Pul</span>
+                            <span class="feature">Reja</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Moliya Rejasi</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Travel AI -->
+                <div class="ai-card travel" data-ai="travel">
+                    <div class="ai-card-header">
+                        <div class="ai-icon travel-ai">
+                            <i class="fas fa-plane"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Sayohat</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Sayohat AI</h3>
+                        <p class="ai-description">Sayohat rejalashtiruvchi va gid. Eng yaxshi joylarni kashf eting.</p>
+                        <div class="ai-features">
+                            <span class="feature">Reja</span>
+                            <span class="feature">Guide</span>
+                            <span class="feature">Tavsiya</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Sayohat Rejasi</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Cooking AI -->
+                <div class="ai-card culinary" data-ai="cooking">
+                    <div class="ai-card-header">
+                        <div class="ai-icon cooking-ai">
+                            <i class="fas fa-utensils"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Oshpaz</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Oshpazlik AI</h3>
+                        <p class="ai-description">Retseptlar va oshpazlik sirlari. Mazali taomlar pishiring.</p>
+                        <div class="ai-features">
+                            <span class="feature">Retsept</span>
+                            <span class="feature">Maslahat</span>
+                            <span class="feature">Sirlar</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Retsept Oling</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Art AI -->
+                <div class="ai-card creative" data-ai="art">
+                    <div class="ai-card-header">
+                        <div class="ai-icon art-ai">
+                            <i class="fas fa-palette"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">San'at</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">San'at AI</h3>
+                        <p class="ai-description">Ijod va san'at yordamchisi. Go'zallik yarating va ilhom oling.</p>
+                        <div class="ai-features">
+                            <span class="feature">Ijod</span>
+                            <span class="feature">Dizayn</span>
+                            <span class="feature">Ilhom</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Ijod Qiling</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Music AI -->
+                <div class="ai-card musical" data-ai="music">
+                    <div class="ai-card-header">
+                        <div class="ai-icon music-ai">
+                            <i class="fas fa-music"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Musiqa</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Musiqa AI</h3>
+                        <p class="ai-description">Musiqa yaratish va tahlil. Melodiya va ritm ustasi bo'ling.</p>
+                        <div class="ai-features">
+                            <span class="feature">Yaratish</span>
+                            <span class="feature">Tahlil</span>
+                            <span class="feature">O'rgatish</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Musiqa Yarating</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sports AI -->
+                <div class="ai-card sports" data-ai="sports">
+                    <div class="ai-card-header">
+                        <div class="ai-icon sports-ai">
+                            <i class="fas fa-futbol"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Sport</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Sport AI</h3>
+                        <p class="ai-description">Sport maslahatchi va fitness yordamchisi. Sog'lom bo'ling!</p>
+                        <div class="ai-features">
+                            <span class="feature">Fitness</span>
+                            <span class="feature">Mashq</span>
+                            <span class="feature">Salomatlik</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Mashq Boshlang</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Weather AI -->
+                <div class="ai-card weather" data-ai="weather">
+                    <div class="ai-card-header">
+                        <div class="ai-icon weather-ai">
+                            <i class="fas fa-cloud-sun"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Ob-havo</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Ob-havo AI</h3>
+                        <p class="ai-description">Ob-havo prognozi va iqlim ma'lumotlari. Har doim tayyor bo'ling!</p>
+                        <div class="ai-features">
+                            <span class="feature">Prognoz</span>
+                            <span class="feature">Iqlim</span>
+                            <span class="feature">Ma'lumot</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Prognoz Ko'ring</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- News AI -->
+                <div class="ai-card news" data-ai="news">
+                    <div class="ai-card-header">
+                        <div class="ai-icon news-ai">
+                            <i class="fas fa-newspaper"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Yangilik</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Yangiliklar AI</h3>
+                        <p class="ai-description">Yangiliklar tahlilchisi va ma'lumot beruvchi. Dunyodan xabardor bo'ling!</p>
+                        <div class="ai-features">
+                            <span class="feature">Yangilik</span>
+                            <span class="feature">Tahlil</span>
+                            <span class="feature">Ma'lumot</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Yangiliklar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Math AI -->
+                <div class="ai-card mathematical" data-ai="math">
+                    <div class="ai-card-header">
+                        <div class="ai-icon math-ai">
+                            <i class="fas fa-calculator"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Matematik</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Matematika AI</h3>
+                        <p class="ai-description">Matematik masalalar yechuvchi va formula ustasi. Hisoblang va o'rganing!</p>
+                        <div class="ai-features">
+                            <span class="feature">Hisob</span>
+                            <span class="feature">Formula</span>
+                            <span class="feature">Yechim</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Hisoblang</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Science AI -->
+                <div class="ai-card scientific" data-ai="science">
+                    <div class="ai-card-header">
+                        <div class="ai-icon science-ai">
+                            <i class="fas fa-atom"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <div class="ai-badge">Fan</div>
+                    </div>
+                    <div class="ai-content">
+                        <h3 class="ai-title">Fan AI</h3>
+                        <p class="ai-description">Kimyo, fizika, biologiya bo'yicha mutaxassis. Ilmni o'rganing!</p>
+                        <div class="ai-features">
+                            <span class="feature">Kimyo</span>
+                            <span class="feature">Fizika</span>
+                            <span class="feature">Biologiya</span>
+                        </div>
+                    </div>
+                    <div class="ai-footer">
+                        <button class="ai-btn">
+                            <span>Fan O'rganing</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chat Modal -->
+    <div class="ai-modal" id="aiModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <div class="modal-ai-info">
+                    <div class="modal-ai-avatar" id="modalAiAvatar">
+                        <i class="fas fa-robot"></i>
+                        <div class="avatar-pulse"></div>
+                    </div>
+                    <div class="modal-ai-details">
+                        <h3 class="modal-ai-name" id="modalAiName">AI Yordamchi</h3>
+                        <p class="modal-ai-status" id="modalAiStatus">
+                            <span class="status-indicator"></span>
+                            Online va tayyor
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="modal-controls">
+                    <button class="modal-control voice-control" id="voiceControl" title="Ovozli muloqot">
+                        <i class="fas fa-microphone"></i>
+                        <div class="control-tooltip">Ovoz yoqish</div>
+                    </button>
+                    <button class="modal-control lang-control" id="langControl" title="Til almashtirish">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-indicator">UZ</span>
+                        <div class="control-tooltip">Til: O'zbek</div>
+                    </button>
+                    <button class="modal-control settings-control" id="settingsControl" title="Sozlamalar">
+                        <i class="fas fa-cog"></i>
+                        <div class="control-tooltip">Sozlamalar</div>
+                    </button>
+                    <button class="modal-control close-control" id="closeControl" title="Yopish">
+                        <i class="fas fa-times"></i>
+                        <div class="control-tooltip">Yopish</div>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="modal-body">
+                <div class="chat-area" id="chatArea">
+                    <div class="chat-messages" id="chatMessages">
+                        <!-- Messages will be added here -->
+                    </div>
+                    
+                    <div class="typing-animation" id="typingAnimation">
+                        <div class="typing-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="typing-bubble">
+                            <div class="typing-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="typing-text">Yozmoqda...</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quick-suggestions" id="quickSuggestions">
+                    <!-- Suggestions will be added here -->
+                </div>
+                
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <button class="input-action attachment-btn" title="Fayl biriktirish">
+                            <i class="fas fa-paperclip"></i>
+                        </button>
+                        
+                        <div class="text-input-container">
+                            <textarea 
+                                id="chatInput" 
+                                placeholder="Xabaringizni yozing..." 
+                                rows="1"
+                                maxlength="2000"
+                            ></textarea>
+                            <div class="input-counter">
+                                <span id="inputCounter">0</span>/2000
+                            </div>
+                        </div>
+                        
+                        <button class="input-action emoji-btn" title="Emoji qo'shish">
+                            <i class="fas fa-smile"></i>
+                        </button>
+                        
+                        <button class="input-action voice-input-btn" id="voiceInputBtn" title="Ovozli xabar">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                        
+                        <button class="send-btn" id="sendBtn" title="Yuborish">
+                            <i class="fas fa-paper-plane"></i>
+                            <div class="send-ripple"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="features-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Noyob Xususiyatlar</span>
+                </div>
+                <h2 class="section-title">Nega AI Universe?</h2>
+                <p class="section-description">
+                    Biz faqat AI xizmatlari emas, kelajak texnologiyalarini taqdim etamiz. 
+                    Har bir xususiyat professional darajada ishlab chiqilgan.
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card lightning">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                        <div class="feature-glow"></div>
+                    </div>
+                    <h3>Chaqmoq Tez</h3>
+                    <p>1 soniyadan kamroq vaqtda javob. Optimallashtirilgan algoritmlar va bulutli texnologiyalar.</p>
+                    <div class="feature-stat">
+                        <span class="stat-value">&lt;1s</span>
+                        <span class="stat-label">Javob vaqti</span>
+                    </div>
+                </div>
+                
+                <div class="feature-card security">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="feature-glow"></div>
+                    </div>
+                    <h3>Bank Darajasida Xavfsizlik</h3>
+                    <p>256-bit shifrlash va ilg'or xavfsizlik protokollari. Ma'lumotlaringiz himoyalangan.</p>
+                    <div class="feature-stat">
+                        <span class="stat-value">256-bit</span>
+                        <span class="stat-label">Shifrlash</span>
+                    </div>
+                </div>
+                
+                <div class="feature-card adaptive">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                        <div class="feature-glow"></div>
+                    </div>
+                    <h3>O'rganuvchi AI</h3>
+                    <p>Har bir suhbatdan o'rganadi va yaxshilanadi. Sizning ehtiyojlaringizga moslashadi.</p>
+                    <div class="feature-stat">
+                        <span class="stat-value">∞</span>
+                        <span class="stat-label">O'rganish</span>
+                    </div>
+                </div>
+                
+                <div class="feature-card multilingual">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                        <div class="feature-glow"></div>
+                    </div>
+                    <h3>100+ Til Qo'llab-quvvatlash</h3>
+                    <p>Dunyoning barcha asosiy tillarida muloqot. Real vaqtda tarjima va tushunish.</p>
+                    <div class="feature-stat">
+                        <span class="stat-value">100+</span>
+                        <span class="stat-label">Tillar</span>
+                    </div>
+                </div>
+                
+                <div class="feature-card voice">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                        <div class="feature-glow"></div>
+                    </div>
+                    <h3>Natural Ovozli Muloqot</h3>
+                    <p>Gapiring va tinglang. Tabiiy ovoz sintezi va tanish texnologiyalari.</p>
+                    <div class="feature-stat">
+                        <span class="stat-value">HD</span>
+                        <span class="stat-label">Ovoz sifati</span>
+                    </div>
+                </div>
+                
+                <div class="feature-card support">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                        <div class="feature-glow"></div>
+                    </div>
+                    <h3>24/7 Professional Yordam</h3>
+                    <p>Doimo sizning xizmatlaringizda. Har qanday savolga tezkor va professional javob.</p>
+                    <div class="feature-stat">
+                        <span class="stat-value">24/7</span>
+                        <span class="stat-label">Yordam</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-badge">
+                        <i class="fas fa-heart"></i>
+                        <span>Bizning Missiyamiz</span>
+                    </div>
+                    <h2 class="about-title">AI Universe - Kelajakni Bugun Yaratamiz</h2>
+                    <p class="about-description">
+                        Biz O'zbekistonda sun'iy intellekt texnologiyalarini rivojlantirish va 
+                        har bir odamga qulay qilish uchun ishlaymiz. Bizning maqsadimiz - 
+                        AI orqali hayotni osonlashtirish va yangi imkoniyatlar yaratish.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>10,000+ Foydalanuvchi</h4>
+                                <p>Har kuni minglab odamlar AI Universe dan foydalanadi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Sertifikatlangan Xavfsizlik</h4>
+                                <p>ISO 27001 va SOC 2 Type 2 sertifikatlari</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Innovatsion Texnologiyalar</h4>
+                                <p>Eng so'nggi AI modellari va algoritmlar</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-actions">
+                        <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                            <i class="fas fa-envelope"></i>
+                            <span>Biz Bilan Bog'laning</span>
+                        </button>
+                        <button class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            <span>Broshura Yuklab Olish</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="team-showcase">
+                        <div class="team-member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="member-info">
+                                <h4>Sardor Umarov</h4>
+                                <p>CEO & Asoschisi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-cog"></i>
+                            </div>
+                            <div class="member-info">
+                                <h4>Malika Karimova</h4>
+                                <p>CTO</p>
+                            </div>
+                        </div>
+                        
+                        <div class="team-member">
+                            <div class="member-avatar">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="member-info">
+                                <h4>Bobur Aliyev</h4>
+                                <p>AI Research Director</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-brain"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-envelope"></i>
+                    <span>Biz Bilan Bog'laning</span>
+                </div>
+                <h2 class="section-title">Savollaringiz Bormi?</h2>
+                <p class="section-description">
+                    Bizning mutaxassislar jamoasi sizga yordam berishga tayyor. 
+                    Har qanday savol yoki takliflaringizni bizga yuboring.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Ofis Manzil</h4>
+                        <p>Toshkent shahar, Yunusobod tumani</p>
+                        <p>IT Park, A-blok, 5-qavat</p>
+                        <div class="contact-action">
+                            <button class="contact-btn">
+                                <i class="fas fa-map"></i>
+                                Xaritada Ko'rish
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Telefon Raqam</h4>
+                        <p>+998 90 123 45 67</p>
+                        <p>+998 91 234 56 78</p>
+                        <div class="contact-action">
+                            <button class="contact-btn">
+                                <i class="fas fa-phone"></i>
+                                Qo'ng'iroq Qiling
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email Manzil</h4>
+                        <p>info@aiuniverse.uz</p>
+                        <p>support@aiuniverse.uz</p>
+                        <div class="contact-action">
+                            <button class="contact-btn">
+                                <i class="fas fa-envelope"></i>
+                                Email Yuborish
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <h4>Telegram Bot</h4>
+                        <p>@AIUniverseBot</p>
+                        <p>24/7 avtomatik yordam</p>
+                        <div class="contact-action">
+                            <button class="contact-btn">
+                                <i class="fab fa-telegram"></i>
+                                Botni Boshlash
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-section">
+                    <div class="form-container">
+                        <h3>Bizga Xabar Yuboring</h3>
+                        <p>To'liq ma'lumot uchun quyidagi formani to'ldiring</p>
+                        
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">
+                                        <i class="fas fa-user"></i>
+                                        Ism
+                                    </label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                    <div class="form-validation"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="lastName">
+                                        <i class="fas fa-user"></i>
+                                        Familiya
+                                    </label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                    <div class="form-validation"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">
+                                        <i class="fas fa-envelope"></i>
+                                        Email Manzil
+                                    </label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="form-validation"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone">
+                                        <i class="fas fa-phone"></i>
+                                        Telefon Raqam
+                                    </label>
+                                    <input type="tel" id="phone" name="phone">
+                                    <div class="form-validation"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">
+                                    <i class="fas fa-building"></i>
+                                    Kompaniya (ixtiyoriy)
+                                </label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">
+                                    <i class="fas fa-tag"></i>
+                                    Mavzu
+                                </label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Mavzuni tanlang</option>
+                                    <option value="general">Umumiy savol</option>
+                                    <option value="technical">Texnik yordam</option>
+                                    <option value="business">Biznes takliflar</option>
+                                    <option value="partnership">Hamkorlik</option>
+                                    <option value="feedback">Fikr-mulohaza</option>
+                                    <option value="other">Boshqa</option>
+                                </select>
+                                <div class="form-validation"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">
+                                    <i class="fas fa-comment"></i>
+                                    Xabar Matni
+                                </label>
+                                <textarea id="message" name="message" rows="5" required maxlength="1000"></textarea>
+                                <div class="character-count">
+                                    <span id="messageCount">0</span>/1000
+                                </div>
+                                <div class="form-validation"></div>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <span class="checkmark"></span>
+                                    <span class="checkbox-text">
+                                        <a href="#" target="_blank">Maxfiylik siyosati</a> va 
+                                        <a href="#" target="_blank">Foydalanish shartlari</a> bilan tanishdim va roziman
+                                    </span>
+                                </label>
+                                <div class="form-validation"></div>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    <span class="checkbox-text">
+                                        Yangiliklar va maxsus takliflardan xabardor bo'lishni xohlayman
+                                    </span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="form-submit-btn" id="submitBtn">
+                                <span class="btn-text">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Xabar Yuborish
+                                </span>
+                                <span class="btn-loading">
+                                    <i class="fas fa-spinner fa-spin"></i>
+                                    Yuborilmoqda...
+                                </span>
+                                <div class="btn-success">
+                                    <i class="fas fa-check"></i>
+                                    Yuborildi!
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section main">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="brand-name">AI Universe</span>
+                            <span class="brand-tagline">Premium AI Platform</span>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        O'zbekistondagi eng ilg'or AI platformasi. 25+ professional xizmati bilan 
+                        kelajak texnologiyalarini bugun foydalaning. Sun'iy intellekt orqali 
+                        hayotingizni yangi bosqichga olib chiqing.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link telegram" title="Telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="#" class="social-link instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link youtube" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-link linkedin" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link facebook" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link twitter" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>AI Xizmatlar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="openAI('chat')">Chat AI</a></li>
+                        <li><a href="#" onclick="openAI('translator')">Tarjimon AI</a></li>
+                        <li><a href="#" onclick="openAI('islamic')">Islom AI</a></li>
+                        <li><a href="#" onclick="openAI('code')">Kod AI</a></li>
+                        <li><a href="#" onclick="openAI('education')">Ta'lim AI</a></li>
+                        <li><a href="#" onclick="openAI('business')">Biznes AI</a></li>
+                        <li><a href="#services">Barcha Xizmatlar</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Platforma</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Xususiyatlar</a></li>
+                        <li><a href="#about">Biz Haqimizda</a></li>
+                        <li><a href="#">API Hujjatlari</a></li>
+                        <li><a href="#">SDK Yuklab Olish</a></li>
+                        <li><a href="#">Integrasiyalar</a></li>
+                        <li><a href="#">Status Sahifa</a></li>
+                        <li><a href="#">Yangiliklar</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Yordam</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Qo'llanma</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#contact">Bog'lanish</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                        <li><a href="#">Video Darslar</a></li>
+                        <li><a href="#">Webinarlar</a></li>
+                        <li><a href="#">Texnik Yordam</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kompaniya</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Karriyera</a></li>
+                        <li><a href="#">Hamkorlik</a></li>
+                        <li><a href="#">Investorlar</a></li>
+                        <li><a href="#">Matbuot</a></li>
+                        <li><a href="#">Tadbirlar</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Podcast</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section newsletter">
+                    <h4>Yangiliklar</h4>
+                    <p>Eng so'nggi yangiliklar va maxsus takliflardan birinchi bo'lib xabardor bo'ling</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <div class="input-group">
+                            <input type="email" placeholder="Email manzilingiz" required>
+                            <button type="submit">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="newsletter-privacy">
+                            <label class="checkbox-label">
+                                <input type="checkbox" required>
+                                <span class="checkmark small"></span>
+                                <span class="checkbox-text">Maxfiylik siyosati bilan roziman</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="footer-left">
+                        <p>&copy; 2025 AI Universe. Barcha huquqlar himoyalangan.</p>
+                        <p class="islamic-blessing">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم - Bismillah, Allohning izni bilan yaratilgan 🤲</p>
+                    </div>
+                    <div class="footer-links-bottom">
+                        <a href="#">Maxfiylik Siyosati</a>
+                        <a href="#">Foydalanish Shartlari</a>
+                        <a href="#">Cookie Siyosati</a>
+                        <a href="#">Litsenziya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <button class="fab-item scroll-to-top" id="scrollToTop" title="Yuqoriga qaytish">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+        
+        <button class="fab-item quick-chat" id="quickChat" title="Tezkor chat">
+            <i class="fas fa-comments"></i>
+            <div class="chat-notification">3</div>
+        </button>
+        
+        <button class="fab-item help-center" id="helpCenter" title="Yordam markazi">
+            <i class="fas fa-question-circle"></i>
+        </button>
+    </div>
+
+    <!-- Notification Toast Container -->
+    <div class="toast-container" id="toastContainer">
+        <!-- Toasts will be added here -->
+    </div>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner-circle"></div>
+        <div class="spinner-text">Yuklanmoqda...</div>
+    </div>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <div class="cookie-icon">
+                <i class="fas fa-cookie-bite"></i>
+            </div>
+            <div class="cookie-text">
+                <h4>Cookie'lar haqida</h4>
+                <p>Biz sizga eng yaxshi tajriba taqdim etish uchun cookie'lardan foydalanamiz. Davom etish orqali siz cookie'lar siyosatiga rozilik bildirasiz.</p>
+            </div>
+            <div class="cookie-actions">
+                <button class="cookie-btn cookie-accept" id="acceptCookies">
+                    <i class="fas fa-check"></i>
+                    Qabul Qilish
+                </button>
+                <button class="cookie-btn cookie-settings" id="cookieSettings">
+                    <i class="fas fa-cog"></i>
+                    Sozlamalar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PWA Install Prompt -->
+    <div class="pwa-install-prompt" id="pwaInstallPrompt">
+        <div class="pwa-content">
+            <div class="pwa-icon">
+                <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="pwa-text">
+                <h4>AI Universe ilovasini o'rnating</h4>
+                <p>Tezkor kirish va oflayn rejim uchun ilovani telefoningizga o'rnating</p>
+            </div>
+            <div class="pwa-actions">
+                <button class="pwa-btn pwa-install" id="installPWA">
+                    <i class="fas fa-download"></i>
+                    O'rnatish
+                </button>
+                <button class="pwa-btn pwa-dismiss" id="dismissPWA">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
